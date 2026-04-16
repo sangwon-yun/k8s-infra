@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: sangwonyun/nodeapp-git:1.0.2 # {"$imagepolicy": "flux-system:nodeapp-git-policy" }
+        image: sangwonyun/nodeapp-git:1.1.0 # {"$imagepolicy": "flux-system:nodeapp-git-policy" }
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
